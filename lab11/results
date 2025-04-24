@@ -1,0 +1,4 @@
+results/
+├── common_neighbors_top10.csv        # Топ 10 холбооны урьдчилсан таамаг
+├── adamic_adar_scores.csv            # Adamic-Adar оноо
+├── jaccard_comparison.png            # Жаккард алгоритмын харьцуулалт (зураг)
