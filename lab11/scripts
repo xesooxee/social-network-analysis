@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Installing dependencies..."
+pip install -r ../requirements.txt
+
+#!/bin/bash
+echo "Running Link Prediction experiments..."
+python3 main_prediction.py
