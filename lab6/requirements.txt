@@ -1,0 +1,12 @@
+
+---
+
+## 📦 `requirements.txt`
+
+```txt
+networkx==3.4.2
+powerlaw==1.5
+matplotlib>=3.10.0
+numpy>=1.26.4
+scipy>=1.13.1
+pandas>=2.0.0
