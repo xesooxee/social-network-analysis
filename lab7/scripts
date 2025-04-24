@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "📦 Installing required packages from requirements.txt ..."
+pip install -r ../requirements.txt
+#!/bin/bash
+echo "📊 Running Scale-Free Network Analysis ..."
+python3 scale_free_analysis.py
+
+echo "🧠 Running Centrality & Assortative Mixing Analysis ..."
+python3 centrality_analysis.py
+cd scripts
+chmod +x setup.sh run.sh  # Скриптүүдийг ажиллуулах эрх олгох
+./setup.sh                # Шаардлагатай сангуудыг суулгана
+./run.sh                  # Хоёр анализыг дарааллаар ажиллуулна
